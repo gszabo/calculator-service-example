@@ -1,0 +1,27 @@
+{
+  "name": "calculator-service-example",
+  "version": "1.0.0",
+  "description": "elte calculator service example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "mocha \"app/**/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gszabo/calculator-service-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gszabo/calculator-service-example/issues"
+  },
+  "homepage": "https://github.com/gszabo/calculator-service-example#readme",
+  "dependencies": {
+    "express": "4.13.4"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.4.5"
+  }
+}
